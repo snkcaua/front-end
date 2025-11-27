@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katiau | Todos os Produtos</title>
+</head>
+<body>
+    <div class = "cabeçalho"> 
+        <head class="simbolos">
+            <a href="index.html"><img class="katiau" src ="Katiaus.png" alt="Katiauslogo" width="300" height="110"></a>
+            <img class= "acessibilidade" src="acesssimbol.png" alt="acessibilidade" width="60" height="52">
+            <img class="carrinho" src="carrinhosimbol.png" alt="carrinho" width="60" height="52">
+            <img class="menu" src = "menuicon.png" alt="menu" width="50" height="50">
+        </head>
+    </div>
+
+    <div class ="busca">
+        <img class = "busca" src="buscaicon.png" alt="busca" width="25" height="13">
+        <input type="text" class=" buscakatiau" placeholder="Busque no Katiau!">
+    </div>
+
+    <div class="container-principal-produtos" style="display: flex; margin-top: 20px;">
+        
+        <aside class="filtros" style="width: 20%; padding: 10px;">
+            <h3>Departamentos</h3>
+            <ul>
+                <li>Hardware</li>
+                <li>Periféricos</li>
+                <li>Computadores</li>
+                <li>Games</li>
+                <li>Cadeiras</li>
+            </ul>
+            <hr>
+            <h3>Preço</h3>
+            <ul>
+                <li>Até R$ 100,00</li>
+                <li>R$ 100 a R$ 300</li>
+                <li>R$ 300 a R$ 800</li>
+                <li>Acima de R$ 800</li>
+            </ul>
+        </aside>
+
+        <main class="grade-produtos" style="width: 80%; padding: 10px;">
+            <h2>Hardware e Periféricos</h2>
+            <div class="ordenacao">
+                <p>Ordenar por: <select><option>Mais Vendidos</option><option>Menor Preço</option></select></p>
+            </div>
+
+            <div class="lista-produtos">
+                
+                <figure class="produto-card"> 
+                    <img src="gabinete redragon.png" alt="gabinete" width="150">
+                    <figcaption> Gabinete Gamer Redragon Wideload Lite</figcaption>
+                    <div class="precos">
+                        <p><s>R$ 388,22</s></p>
+                        <h3> R$ 299,99 </h3> 
+                        <p class="pix">À vista no PIX</p>
+                    </div>
+                    <button class="btn-comprar" style="background-color: #ff6500; color: white; border: none; padding: 10px; width: 100%; cursor: pointer;">
+                        <img src="carrinhosimbol.png" width="15" style="vertical-align: middle;"> COMPRAR
+                    </button>
+                </figure>
+
+                <figure class="produto-card">
+                    <img src="mouse.png" alt="mouse" width="150">
+                    <figcaption>Mouse Gamer Sem fio Redragon Invader Pro</figcaption>
+                    <div class="precos">
+                        <p><s> R$235,28</s></p>
+                        <H3> R$ 139,99 </H3>
+                        <P class="pix"> À vista no PIX </P>
+                    </div>
+                    <button class="btn-comprar" style="background-color: #ff6500; color: white; border: none; padding: 10px; width: 100%; cursor: pointer;">
+                        <img src="carrinhosimbol.png" width="15" style="vertical-align: middle;"> COMPRAR
+                    </button>
+                </figure>
+
+                <figure class="produto-card">
+                    <img src="placa.png" alt="placamae" width="150">
+                    <figcaption> Placa-Mãe Asus Prime H610M-A D4</figcaption>
+                    <div class="precos">
+                        <p><s> R$ 941,16</s></p>
+                        <H3> R$ 633,99 </H3>
+                        <p class="pix">À vista no PIX</p>
+                    </div>
+                    <button class="btn-comprar" style="background-color: #ff6500; color: white; border: none; padding: 10px; width: 100%; cursor: pointer;">
+                        <img src="carrinhosimbol.png" width="15" style="vertical-align: middle;"> COMPRAR
+                    </button>
+                </figure>
+
+                <figure class="produto-card">
+                    <img src="placadevideo.webp" alt="Placa de Video" width="150">
+                    <figcaption> Placa de Vídeo RTX 4060 8GB Katiau Edition</figcaption>
+                    <div class="precos">
+                        <p><s> R$ 2.400,00</s></p>
+                        <H3> R$ 1.899,99 </H3>
+                        <p class="pix">À vista no PIX</p>
+                    </div>
+                    <button class="btn-comprar" style="background-color: #ff6500; color: white; border: none; padding: 10px; width: 100%; cursor: pointer;">
+                        <img src="carrinhosimbol.png" width="15" style="vertical-align: middle;"> COMPRAR
+                    </button>
+                </figure>
+                
+                 <figure class="produto-card">
+                    <img src="memoriaram.webp" alt="Memoria RAM" width="150">
+                    <figcaption> Memória RAM 16GB 3200MHz DDR4</figcaption>
+                    <div class="precos">
+                        <p><s> R$ 350,00</s></p>
+                        <H3> R$ 229,90 </H3>
+                        <p class="pix">À vista no PIX</p>
+                    </div>
+                    <button class="btn-comprar" style="background-color: #ff6500; color: white; border: none; padding: 10px; width: 100%; cursor: pointer;">
+                        <img src="carrinhosimbol.png" width="15" style="vertical-align: middle;"> COMPRAR
+                    </button>
+                </figure>
+
+                <figure class="produto-card">
+    <img src="monitor.webp" alt="Monito  r Gamer" width="150">
+    <figcaption> Monitor Gamer LG UltraGear 24', 144Hz, 1ms, IPS, HDMI/DP</figcaption>
+    <div class="precos">
+        <p><s>R$ 1.399,00</s></p>
+        <h3> R$ 899,99 </h3>
+        <p class="pix">À vista no PIX</p>
+    </div>
+    <button class="btn-comprar" style="background-color: #ff6500; color: white; border: none; padding: 10px; width: 100%; cursor: pointer;">
+        <img src="carrinhosimbol.png" width="15" style="vertical-align: middle;"> COMPRAR
+    </button>
+</figure>
+
+<figure class="produto-card">
+    <img src="processador.webp" alt="Processador AMD" width="150">
+    <figcaption> Processador AMD Ryzen 5 5600GT, 3.6GHz, Cache 19MB</figcaption>
+    <div class="precos">
+        <p><s>R$ 1.150,00</s></p>
+        <h3> R$ 849,90 </h3>
+        <p class="pix">À vista no PIX</p>
+    </div>
+    <button class="btn-comprar" style="background-color: #ff6500; color: white; border: none; padding: 10px; width: 100%; cursor: pointer;">
+        <img src="carrinhosimbol.png" width="15" style="vertical-align: middle;"> COMPRAR
+    </button>
+</figure>
+
+<figure class="produto-card">
+    <img src="fone.jpg" alt="Headset Gamer" width="150">
+    <figcaption> Headset Gamer HyperX Cloud Stinger 2 Core, Drivers 40mm</figcaption>
+    <div class="precos">
+        <p><s>R$ 299,90</s></p>
+        <h3> R$ 199,99 </h3>
+        <p class="pix">À vista no PIX</p>
+    </div>
+    <button class="btn-comprar" style="background-color: #ff6500; color: white; border: none; padding: 10px; width: 100%; cursor: pointer;">
+        <img src="carrinhosimbol.png" width="15" style="vertical-align: middle;"> COMPRAR
+    </button>
+</figure>
+
+<figure class="produto-card">
+    <img src="ssd.webp" alt="SSD NVMe" width="150">
+    <figcaption> SSD 1TB Kingston NV2, M.2 2280 NVMe, Leitura 3500MB/s</figcaption>
+    <div class="precos">
+        <p><s>R$ 450,00</s></p>
+        <h3> R$ 379,99 </h3>
+        <p class="pix">À vista no PIX</p>
+    </div>
+    <button class="btn-comprar" style="background-color: #ff6500; color: white; border: none; padding: 10px; width: 100%; cursor: pointer;">
+        <img src="carrinhosimbol.png" width="15" style="vertical-align: middle;"> COMPRAR
+    </button>
+</figure>
+
+<figure class="produto-card">
+    <img src="teclado.webp" alt="Teclado Mecânico" width="150">
+    <figcaption> Teclado Mecânico Gamer Redragon Kumara, Switch Blue</figcaption>
+    <div class="precos">
+        <p><s>R$ 249,90</s></p>
+        <h3> R$ 179,90 </h3>
+        <p class="pix">À vista no PIX</p>
+    </div>
+    <button class="btn-comprar" style="background-color: #ff6500; color: white; border: none; padding: 10px; width: 100%; cursor: pointer;">
+        <img src="carrinhosimbol.png" width="15" style="vertical-align: middle;"> COMPRAR
+    </button>
+</figure>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <div class="newsletter-footer">
+            <h3>Katiau! News <span>Receba ofertas</span></h3>
+            <form>
+                <input type="text" placeholder="Digite seu nome">
+                <input type="email" placeholder="Digite seu e-mail">
+                <button type="submit">CADASTRAR</button>
+            </form>
+        </div>
+
+        <div class="links-footer">
+            <div class="coluna-footer">
+                <h4>Atendimento</h4>
+                <p>08:00 às 20:00 - Segunda a Sexta</p>
+                <button>FALE CONOSCO</button>
+            </div>
+            <div class="coluna-footer">
+                <h4>Institucional</h4>
+                <ul>
+                    <li><a href="#">Sobre o Katiau!</a></li>
+                    <li><a href="#">Políticas</a></li>
+                </ul>
+            </div>
+            <div class="coluna-footer">
+                <h4>Pagamento</h4>
+                <p>Pix e Cartão</p>
+            </div>
+        </div>
+
+        <div class="rodape-inferior">
+            <div class="legal-info">
+                <h3>Katiau!</h3>
+                <p>Uma empresa do grupo Katiau Tech</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
