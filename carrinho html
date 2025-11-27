@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katiau | Carrinho</title>
+</head>
+<body>
+
+    <!-- CABEÇALHO -->
+    <div class="cabeçalho"> 
+        <div class="simbolos">
+            <a href="kabumprojectinicial.html"><img class="katiau" src="Katiaus.png" width="300" height="110" alt="Katiau"></a>
+            <img class="acessibilidade" src="acesssimbol.png" width="60" height="52" alt="acessibilidade">
+            <img class="carrinho" src="carrinhosimbol.png" width="60" height="52" alt="carrinho">
+            <img class="menu" src="menuicon.png" width="50" height="50" alt="menu">
+        </div>
+    </div>
+
+    <!-- BARRA DE BUSCA -->
+    <div class="busca">
+        <img src="buscaicon.png" width="25" height="13" alt="busca">
+        <input type="text" class="buscakatiau" placeholder="Busque no Katiau!">
+    </div>
+
+    <h1>Carrinho de Compras</h1>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <div class="carrinho-container" style="display:flex; gap:30px; margin-top:20px;">
+
+        <!-- LISTA DE ITENS -->
+        <div class="lista-itens" style="width:70%;">
+
+            <!-- ITEM 1 -->
+            <div class="item-carrinho" style="border-bottom:1px solid #ccc; padding:20px 0; display:flex; align-items:center; gap:20px;">
+                <img src="gabinete redragon.png" width="120" alt="Gabinete Gamer">
+                
+                <div class="info-item">
+                    <h3>Gabinete Gamer Redragon Wideload Lite</h3>
+                    <p><s>R$ 388,22</s></p>
+                    <h2 style="color:#ff6500;">R$ 299,99</h2>
+                    <p>À vista no PIX</p>
+
+                    <label>Quantidade:</label>
+                    <input type="number" value="1" min="1" style="width:50px;">
+                </div>
+
+                <button style="padding:8px 15px; background:red; color:white; border:none; cursor:pointer;">Remover</button>
+            </div>
+
+            <!-- ITEM 2 -->
+            <div class="item-carrinho" style="border-bottom:1px solid #ccc; padding:20px 0; display:flex; align-items:center; gap:20px;">
+                <img src="mouse.png" width="120" alt="Mouse Gamer">
+                
+                <div class="info-item">
+                    <h3>Mouse Gamer Redragon Invader Pro</h3>
+                    <p><s>R$ 235,28</s></p>
+                    <h2 style="color:#ff6500;">R$ 139,99</h2>
+                    <p>À vista no PIX</p>
+
+                    <label>Quantidade:</label>
+                    <input type="number" value="1" min="1" style="width:50px;">
+                </div>
+
+                <button style="padding:8px 15px; background:red; color:white; border:none; cursor:pointer;">Remover</button>
+            </div>
+
+            <!-- ITEM 3 -->
+            <div class="item-carrinho" style="padding:20px 0; display:flex; align-items:center; gap:20px;">
+                <img src="placa.png" width="120" alt="Placa-Mãe">
+                
+                <div class="info-item">
+                    <h3>Placa-Mãe Asus Prime H610M-A D4</h3>
+                    <p><s>R$ 941,16</s></p>
+                    <h2 style="color:#ff6500;">R$ 633,99</h2>
+                    <p>À vista no PIX</p>
+
+                    <label>Quantidade:</label>
+                    <input type="number" value="1" min="1" style="width:50px;">
+                </div>
+
+                <button style="padding:8px 15px; background:red; color:white; border:none; cursor:pointer;">Remover</button>
+            </div>
+
+        </div>
+
+        <!-- RESUMO -->
+        <div class="resumo" style="width:30%; border:1px solid #ccc; padding:20px;">
+            <h2>Resumo da Compra</h2>
+            <p>Subtotal: <strong>R$ 1.073,97</strong></p>
+            <p>Descontos: <strong>R$ 0,00</strong></p>
+            <p>Frete: <strong>Grátis</strong></p>
+            <hr>
+            <h2>Total: <span style="color:#ff6500;">R$ 1.073,97</span></h2>
+
+            <button style="width:100%; padding:12px; background:#ff6500; color:white; border:none; margin-top:15px; cursor:pointer;">
+                Finalizar Compra
+            </button>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="newsletter-footer">
+            <h3>Katiau! News <span>Receba ofertas</span></h3>
+            <form>
+                <input type="text" placeholder="Digite seu nome">
+                <input type="email" placeholder="Digite seu e-mail">
+                <button type="submit">CADASTRAR</button>
+            </form>
+        </div>
+
+        <div class="links-footer">
+            <div class="coluna-footer">
+                <h4>Atendimento</h4>
+                <p>08:00 às 20:00 - Segunda a Sexta</p>
+                <p>09:00 às 15:00 - Sábado</p>
+                <button>FALE CONOSCO</button>
+            </div>
+
+            <div class="coluna-footer">
+                <h4>Institucional</h4>
+                <ul>
+                    <li><a href="#">Sobre o Katiau!</a></li>
+                    <li><a href="#">Políticas do Site</a></li>
+                </ul>
+            </div>
+
+            <div class="coluna-footer">
+                <h4>Dúvidas</h4>
+                <ul>
+                    <li><a href="#">Políticas de Privacidade</a></li>
+                </ul>
+            </div>
+            
+            <div class="coluna-footer">
+                 <h4>Formas de Pagamento</h4>
+                 <img src="pix-icon.png" alt="Pix" width="40">
+                 <img src="card-icon.png" alt="Cartão" width="40">
+            </div>
+        </div>
+
+        <div class="rodape-inferior">
+            <div class="social-media">
+                <span>Mídias sociais:</span>
+                <img src="facebook.png" alt="Facebook" width="20">
+                <img src="instagram.png" alt="Instagram" width="20">
+                <img src="twitter.png" alt="Twitter" width="20">
+                <img src="youtube.png" alt="Youtube" width="20">
+            </div>
+            
+            <div class="apps-download">
+                <span>Baixe os aplicativos:</span>
+                <button>APP STORE</button>
+                <button>GOOGLE PLAY</button>
+            </div>
+
+            <div class="legal-info">
+                <h3>Katiau!</h3>
+                <p>R. Álvares Maciel, 628 - Santa Efigênia, Belo Horizonte - MG, 30150-250</p>
+                <p>Katiau!® é uma marca registrada | CNPJ: 02.003.004/0001-05 | Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
