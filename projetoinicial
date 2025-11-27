@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katiau | Black Friday</title>
+</head>
+<body>
+    <div class = "cabeçalho"> 
+        
+        <head class="simbolos">
+            <img class="katiau" src ="Katiaus.png" alt="Katiauslogo" width="300" height="110">
+            <img class= "acessibilidade" src="acesssimbol.png" alt="acessibilidade" width="60" height="52">
+            <img class="carrinho" src="carrinhosimbol.png" alt="carrinho" width="60" height="52">
+            <img class="menu" src = "menuicon.png" alt="menu" width="50" height="50">
+        </head>
+    </div>
+
+    <div class ="busca">
+        <img class = "busca" src="buscaicon.png" alt="busca" width="25" height="13">
+        <input type="text" class=" buscakatiau" placeholder="Busque no Katiau!">
+    </div>
+
+    <div class="banners">
+        <img src="banner1.png" alt="banner" width="1500" height="500">
+        <img src="banner2.png" alt="banner2" width="1500" height="500">
+        <img src="banner3.png" alt="banner3" width="1500" height="500">
+    </div>
+    
+    
+    <h2>
+        Black friday maluca Katiau
+    </h2>
+        
+    
+    <div class="Primeiros produtos">
+            
+            <figure class="gabinete"> 
+                <img src="gabinete redragon.png" alt="gabinete">
+                <figcaption> Gabinete Gamer redragon <br> Wideload Lite, Mid tower<br> Atx, Lateral em vidro...</figcaption>
+                <p><s>R$ 388,22</s></p>
+                <h3> R$ 299,99 </h3> <h3 class="percentdescount"> -9% </h3>
+                <p> À vista no PIX</p>
+                <button type="submit">Colocar no carrinho</button>
+            </figure>
+            
+            
+            <figure class="Mouse">
+                <img src= "mouse.png" alt="mouse">
+                <figcaption>Mouse Gamer Sem fio <br> Redragon Invader Pro,Rgb, <br>
+                10000 DPI, 8 botões...</figcaption>
+                <p><s> R$235,28</s></p>
+                <H3> R$ 139,99 </H3><h3 class="percentdescount">-30% </h3>
+                <P> À vista no PIX </P>
+                <button type="submit">Colocar no carrinho</button>
+            </figure>
+            
+            
+            <figure class="fonte">
+                <img src="fonte.png" alt="fonte">
+                <figcaption> Fonte Husky Sledger 650W,<br>
+                80 Plus Bronze, Cybenetics <br>
+                Bronze,PFC ativo,Bivolt...</figcaption>
+                <p><s> R$ 357,79</s></p>
+                <h3> R$ 279,90 </h3><h3 class="percentdescount">-17% </h3>
+                <p>À vista no PIX</p>
+                <button type="submit">Colocar no carrinho</button>
+            </figure>
+
+            <figure class="Placa-Mãe">
+                <img src="placa.png" alt="placamae">
+                <figcaption> Placa-Mãe Asus Prime<br>
+                H610M-A D4,LGA 1700 H610, <br>
+                mATX, DDR4, Preto...</figcaption>
+                <p><s> R$ 941,16</s></p>
+                <H3> R$ 633,99 </H3> <h3 class="percentdescount"> -20%</h3>
+                <p>À vista no PIX</p>
+                <button type="submit">Colocar no carrinho</button>
+            </figure>
+            
+            <figure class="console">
+                <img src="console.png" alt="ps5">
+                <figcaption> Console Sony Playstation 5 <br>
+                Edição Digital,SSD 825GB, <br>
+                Controle Sem Fio Dualsense</figcaption>
+                <p><s> R$ 4.235,63</s></p>
+                <h3> R$ 2.699,19 </h3> <h3 class="percentdescount">-29% </h3>
+                <button type="submit">Colocar no carrinho</button>
+            </figure>
+    </div>
+    <a href="katiauproducts.html"> Ver todos > </a>
+
+    <div class="monte seu pc ">
+        <a href="monteseupc.html">
+        <h4> Comece a montar seu pc agora e receba montado! </h4>
+        <p> Processador + Gabinete + Placa de Vídeo + Placa-Mãe + Fonte + Memória</p>
+        </a>
+    </div>
+    
+    <footer>
+        <div class="newsletter-footer">
+            <h3>Katiau! News <span>Receba ofertas</span></h3>
+            <form>
+                <input type="text" placeholder="Digite seu nome">
+                <input type="email" placeholder="Digite seu e-mail">
+                <button type="submit">CADASTRAR</button>
+            </form>
+        </div>
+
+        <div class="links-footer">
+            <div class="coluna-footer">
+                <h4>Atendimento</h4>
+                <p>08:00 às 20:00 - Segunda a Sexta</p>
+                <p>09:00 às 15:00 - Sábado</p>
+                <button>FALE CONOSCO</button>
+            </div>
+
+            <div class="coluna-footer">
+                <h4>Institucional</h4>
+                <ul>
+                    <li><a href="#">Sobre o Katiau!</a></li>
+                    <li><a href="#">Políticas do Site</a></li>
+                </ul>
+            </div>
+
+            <div class="coluna-footer">
+                <h4>Dúvidas</h4>
+                <ul>
+                    <li><a href="#">Políticas de Privacidade</a></li>
+                </ul>
+            </div>
+            
+            <div class="coluna-footer">
+                 <h4>Formas de Pagamento</h4>
+                 <img src="pix-icon.png" alt="Pix" width="40">
+                 <img src="card-icon.png" alt="Cartão" width="40">
+            </div>
+        </div>
+
+        <div class="rodape-inferior">
+            <div class="social-media">
+                <span>Mídias sociais:</span>
+                <img src="facebook.png" alt="Facebook" width="20">
+                <img src="instagram.png" alt="Instagram" width="20">
+                <img src="twitter.png" alt="Twitter" width="20">
+                <img src="youtube.png" alt="Youtube" width="20">
+            </div>
+            
+            <div class="apps-download">
+                <span>Baixe os aplicativos:</span>
+                <button>APP STORE</button>
+                <button>GOOGLE PLAY</button>
+            </div>
+
+            <div class="legal-info">
+                <h3>Katiau!</h3>
+                <p>R. Álvares Maciel, 628 - Santa Efigênia, Belo Horizonte - MG, 30150-250</p>
+                <p>Katiau!® é uma marca registrada | CNPJ: 02.003.004/0001-05 | Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
