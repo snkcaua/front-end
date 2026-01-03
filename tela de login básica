@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joelma Control</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class ="title">
+    <h2> Joelma Lingeries </h2>
+    <h4> Controle de estoque fluído</h4>
+    </div>
+    <div class="conteinerlogin">
+        <input type="text" class="usuário" placeholder="Informe o usuário">
+        <input type="text" class="senha" placeholder="Informe a senha">
+        <a href="" id="alert"> Esqueci minha senha </a> 
+        <button> Entrar </button>
+        </div>
+        <script src="events.js"></script>
+</body>
+</html> 
+...
+...
+...
+
+
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway',sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(226, 223, 223);
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.title h2 {
+    font-size: 5rem;
+}
+
+.title h4 { 
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    font-weight: normal;
+    color: #555;
+}
+
+.conteinerlogin {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 7rem;
+    margin-top: 5rem;
+    width: 500px;
+    height: 500px;
+    background-color: #f0ebeb;
+}
+
+.conteinerlogin input {
+    padding: 1.6rem;
+    font-size: 1.3rem;
+    text-align: center;
+    border-radius: 6px;
+    border: 2px solid #ccc;
+}
+
+.conteinerlogin input:focus {
+    outline: none;
+    border-color: #888;
+}
+
+.conteinerlogin a {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #555;
+    text-decoration: none;
+}
+
+.conteinerlogin a:hover {
+    text-decoration: underline;
+
+}
+button{
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    border-radius: 6px;
+    padding: 0.5rem;
+    border: 2px solid #969696;
+    
+}
